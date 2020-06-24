@@ -1,0 +1,75 @@
+/*Configuration du menu*/
+nav{
+    width : 100%;
+    height: 120px;
+    position : fixed;
+    background : rgba(19, 19, 19, 0.7);
+    display : flex;
+	flex-direction: row;
+    justify-content: center;	
+}
+.logo{
+    width : 15%;
+    height:100%;
+   display : flex;
+   justify-content: center;
+
+}
+nav ul {
+    display : flex;
+    flex-direction : row;
+    justify-content : center;
+    list-style : none;
+    width:70%;
+}
+.boite {
+ 
+    /*mise en page des cadres du menu*/
+    height : 40px;
+	overflow: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 0px;
+    vertical-align: center;
+}
+.titre{
+   /*police des titres du menu*/
+    font-family: Comic Sans MS, Arial, Helvetica, sans-serif;
+    font-size : 130%;
+    text-decoration : none;
+    color : rgb(255,255,255);
+}
+a:hover{
+    text-decoration : underline;
+}
+/*mise en page de la photo*/
+.photo{
+    width : 799px;
+    height : 533px;
+    border : 3px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px black;
+    background-image: url("photoGroupe.jpg");
+}
+/*mise en page du corps*/
+body{
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+}
+header{
+    display: flex;
+    padding-top: 120px;
+    justify-content: center;
+  
+}
+bottom{
+    display : flex;
+    background-color: rgb(150,150,150);
+}
+.TitreBas{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 90%;
+    color : rgb(255,255,255);
+    text-decoration : none;
+}
